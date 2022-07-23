@@ -1,0 +1,22 @@
+.app-btn {
+  @apply bg-cyan-400  text-white hover:bg-cyan-800;
+  @apply px-4 py-2 rounded;
+}
+
+.app-nav-link {
+  @apply text-cyan-400 hover:text-blue-200 text-xl;
+  @apply flex items-center;
+}
+
+.app-nav-link.active {
+  @apply underline;
+}
+
+.app-base-view {
+  @apply px-2 py-2;
+}
+
+.app-navigation {
+  @apply flex gap-y-3 flex-col justify-evenly md:flex-row md:justify-between md:gap-y-0;
+  @apply bg-gray-800 text-white px-4 py-8;
+}
